@@ -1,0 +1,32 @@
+/* Custom scrollbar styles */
+html::-webkit-scrollbar {
+    width: 12px;
+}
+
+html::-webkit-scrollbar-track {
+    background: #333333; /* Dark background */
+    border-radius: 10px; /* Rounded corners */
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #444444; /* Slightly lighter dark background */
+    border: 3px solid #32CD32; /* Dark lime green outline */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Firefox scrollbar styles */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #444444 #333333;
+}
+
+html::-moz-scrollbar-track {
+    background: #333333; /* Dark background */
+    border-radius: 10px; /* Rounded corners */
+}
+
+html::-moz-scrollbar-thumb {
+    background: #444444; /* Slightly lighter dark background */
+    border: 3px solid #32CD32; /* Dark lime green outline */
+    border-radius: 10px; /* Rounded corners */
+}
